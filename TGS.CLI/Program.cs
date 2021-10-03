@@ -11,6 +11,9 @@ namespace TGS.CLI
             Console.WriteLine("-*-*-*-*-");
             Console.WriteLine("\t1> VowelCount");
             Console.WriteLine("\t2> Anagram");
+            Console.WriteLine("\t3> FormatNumbers");
+            Console.WriteLine("-*-*-*-*-");
+            Console.WriteLine("\t0> Exit");
             Console.Write("> ");
             var key = Console.ReadKey();
             char sKey = key.KeyChar;
@@ -39,6 +42,18 @@ namespace TGS.CLI
 
                         Anagram anagram = new Anagram();
                         Console.WriteLine("These words are :"+anagram.AreAnagrams(word1,word2));
+                        break;
+                    }
+                case ('3'):
+                    {
+                        Console.WriteLine("\r\nGive me your number (integer/int32):");
+                        Console.Write("> ");
+                        int number = Convert.ToUInt16(Console.ReadLine());
+
+                        FormatNumber formatNumber = new FormatNumber();
+                        
+                        Console.WriteLine("Formatted to :" + formatNumber.Format(number));
+
                         break;
                     }
                 case ('0'):
