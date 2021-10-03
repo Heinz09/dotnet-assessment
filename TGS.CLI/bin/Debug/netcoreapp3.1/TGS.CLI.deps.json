@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TGS.CLI/1.0.0": {
+        "dependencies": {
+          "TGS.Challenge": "1.0.0"
+        },
+        "runtime": {
+          "TGS.CLI.dll": {}
+        }
+      },
+      "TGS.Challenge/1.0.0": {
+        "runtime": {
+          "TGS.Challenge.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TGS.CLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TGS.Challenge/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

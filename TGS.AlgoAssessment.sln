@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGS.Challenge", "TGS.Challenge\TGS.Challenge.csproj", "{CE7A5F4C-69AD-4D26-8FBB-A40AF7C04A33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGS.Challenge", "TGS.Challenge\TGS.Challenge.csproj", "{CE7A5F4C-69AD-4D26-8FBB-A40AF7C04A33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGS.Challenge.Tests", "TGS.Challenge.Tests\TGS.Challenge.Tests.csproj", "{9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TGS.Challenge.Tests", "TGS.Challenge.Tests\TGS.Challenge.Tests.csproj", "{9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TGS.CLI", "TGS.CLI\TGS.CLI.csproj", "{5DC8B94E-5826-470A-8597-B4F636107BD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{CE7A5F4C-69AD-4D26-8FBB-A40AF7C04A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +43,23 @@ Global
 		{9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC}.Release|x64.Build.0 = Release|Any CPU
 		{9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC}.Release|x86.ActiveCfg = Release|Any CPU
 		{9CC3DDCA-5853-4AFE-9BE2-92EC3317E6FC}.Release|x86.Build.0 = Release|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Debug|x64.Build.0 = Debug|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Debug|x86.Build.0 = Debug|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Release|x64.ActiveCfg = Release|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Release|x64.Build.0 = Release|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Release|x86.ActiveCfg = Release|Any CPU
+		{5DC8B94E-5826-470A-8597-B4F636107BD8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C48A79C-B73B-41E6-A12A-0229291A562F}
 	EndGlobalSection
 EndGlobal

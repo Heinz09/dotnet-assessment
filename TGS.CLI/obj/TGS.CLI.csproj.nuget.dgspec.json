@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.CLI\\TGS.CLI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.Challenge\\TGS.Challenge.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.Challenge\\TGS.Challenge.csproj",
+        "projectName": "TGS.Challenge",
+        "projectPath": "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.Challenge\\TGS.Challenge.csproj",
+        "packagesPath": "C:\\Users\\Heinz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.Challenge\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Heinz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.CLI\\TGS.CLI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.CLI\\TGS.CLI.csproj",
+        "projectName": "TGS.CLI",
+        "projectPath": "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.CLI\\TGS.CLI.csproj",
+        "packagesPath": "C:\\Users\\Heinz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.CLI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Heinz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.Challenge\\TGS.Challenge.csproj": {
+                "projectPath": "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.Challenge\\TGS.Challenge.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

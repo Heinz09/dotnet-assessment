@@ -1,0 +1,16 @@
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\bin\Debug\netcoreapp3.1\TGS.CLI.exe
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\bin\Debug\netcoreapp3.1\TGS.CLI.deps.json
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\bin\Debug\netcoreapp3.1\TGS.CLI.runtimeconfig.json
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\bin\Debug\netcoreapp3.1\TGS.CLI.runtimeconfig.dev.json
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\bin\Debug\netcoreapp3.1\TGS.CLI.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\bin\Debug\netcoreapp3.1\TGS.CLI.pdb
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\obj\Debug\netcoreapp3.1\TGS.CLI.AssemblyInfoInputs.cache
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\obj\Debug\netcoreapp3.1\TGS.CLI.AssemblyInfo.cs
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\obj\Debug\netcoreapp3.1\TGS.CLI.csproj.CoreCompileInputs.cache
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\obj\Debug\netcoreapp3.1\TGS.CLI.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\obj\Debug\netcoreapp3.1\TGS.CLI.pdb
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\obj\Debug\netcoreapp3.1\TGS.CLI.genruntimeconfig.cache
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\bin\Debug\netcoreapp3.1\TGS.Challenge.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\bin\Debug\netcoreapp3.1\TGS.Challenge.pdb
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\obj\Debug\netcoreapp3.1\TGS.CLI.csproj.CopyComplete
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.CLI\obj\Debug\netcoreapp3.1\TGS.CLI.csproj.AssemblyReference.cache

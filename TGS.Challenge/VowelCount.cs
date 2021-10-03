@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace TGS.Challenge
 {
@@ -16,7 +17,22 @@ namespace TGS.Challenge
     {
         public int Count(string value)
         {
-            return -1;
+            List<char> vowels = new List<char>();
+                       
+            vowels.Add('A');
+            vowels.Add('E');
+            vowels.Add('I'); 
+            vowels.Add('O'); 
+            vowels.Add('U');
+
+            int vowelCount = 0;
+
+            foreach (char c in value.ToUpper())
+            {
+                if (vowels.Contains(c)) vowelCount++;
+            }
+
+            return vowelCount;
         }
     }
 }
