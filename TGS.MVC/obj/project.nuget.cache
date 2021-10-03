@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8uKe1PCaX4+r/3/YVT/KrBbZwL4tDtD/xqtFd0lBayD1xdWl7i0FExgFpf+yobIfnYFIVvQIsP2NUJLZfJbHmw==",
+  "dgSpecHash": "nMf6Iyuq0HXgj639rNjwrZHHbZV2xe6dn7Vd9zjfex0VufoBdCi07aaybVNbS6a06AgdV36FSpUJRXW4+vGJQQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Heinz\\Source\\Repos\\dotnet-assessment\\TGS.MVC\\TGS.MVC.csproj",
   "expectedPackageFiles": [
@@ -14,8 +14,14 @@
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\3.3.1\\microsoft.codeanalysis.csharp.workspaces.3.3.1.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.codeanalysis.razor\\3.1.0\\microsoft.codeanalysis.razor.3.1.0.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\3.3.1\\microsoft.codeanalysis.workspaces.common.3.3.1.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.0\\microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.0\\microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.1.0\\microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\3.1.0\\microsoft.extensions.fileproviders.embedded.3.1.0.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.extensions.options\\3.1.0\\microsoft.extensions.options.3.1.0.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
@@ -27,8 +33,17 @@
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\3.1.5\\microsoft.visualstudio.web.codegeneration.utils.3.1.5.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\3.1.5\\microsoft.visualstudio.web.codegenerators.mvc.3.1.5.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\namotion.reflection\\2.0.3\\namotion.reflection.2.0.3.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\njsonschema\\10.5.2\\njsonschema.10.5.2.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\njsonschema.yaml\\10.5.2\\njsonschema.yaml.10.5.2.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\nswag.annotations\\13.13.2\\nswag.annotations.13.13.2.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\nswag.aspnetcore\\13.13.2\\nswag.aspnetcore.13.13.2.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\nswag.core\\13.13.2\\nswag.core.13.13.2.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\nswag.core.yaml\\13.13.2\\nswag.core.yaml.13.13.2.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\nswag.generation\\13.13.2\\nswag.generation.13.13.2.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\nswag.generation.aspnetcore\\13.13.2\\nswag.generation.aspnetcore.13.13.2.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -110,7 +125,8 @@
     "C:\\Users\\Heinz\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Heinz\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Heinz\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Heinz\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Heinz\\.nuget\\packages\\yamldotnet\\9.1.4\\yamldotnet.9.1.4.nupkg.sha512"
   ],
   "logs": []
 }

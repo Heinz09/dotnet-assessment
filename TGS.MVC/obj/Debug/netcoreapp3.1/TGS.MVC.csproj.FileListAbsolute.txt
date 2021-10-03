@@ -111,3 +111,14 @@ C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\tr
 C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Functions\Index.cshtml.g.cs
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\NJsonSchema.Yaml.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\NSwag.Core.Yaml.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\bin\Debug\netcoreapp3.1\YamlDotNet.dll
+C:\Users\Heinz\Source\Repos\dotnet-assessment\TGS.MVC\obj\Debug\netcoreapp3.1\TGS.MVC.MvcApplicationPartsAssemblyInfo.cs
