@@ -26,19 +26,21 @@ namespace TGS.Challenge
     {
         public string Format(int value)
         {
-            string sValue = value.ToString();
             string returnValue = "";
+            string sValue = value.ToString();
+            int counter = sValue.Length;
             
-            for (int i = 0; i < sValue.Length; i++)
+            foreach(char c in sValue)
             {
-                returnValue += sValue[i];
-                
-                if (i+1<sValue.Length)
-                { 
-                    if ((i-1) % 3 == 0)
+                if (counter % 3 == 0)
+                {
+                    if (returnValue.Length>0)
                         returnValue += ",";
                 }
+                returnValue += c;
+                counter--;
             }
+
             return returnValue;
         }
     }

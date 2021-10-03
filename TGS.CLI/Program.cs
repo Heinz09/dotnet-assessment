@@ -48,7 +48,7 @@ namespace TGS.CLI
                     {
                         Console.WriteLine("\r\nGive me your number (integer/int32):");
                         Console.Write("> ");
-                        int number = Convert.ToUInt16(Console.ReadLine());
+                        int number = Convert.ToInt32(Console.ReadLine());
 
                         FormatNumber formatNumber = new FormatNumber();
                         
