@@ -26,22 +26,36 @@ namespace TGS.Challenge
     {
         public string Format(int value)
         {
-            string returnValue = "";
-            string sValue = value.ToString();
-            int counter = sValue.Length;
-            
-            foreach(char c in sValue)
+            try
             {
-                if (counter % 3 == 0)
+                int num;
+                bool parse = int.TryParse(value.ToString(), out num);
+                if (!parse)
                 {
-                    if (returnValue.Length>0)
-                        returnValue += ",";
+                    throw new ArgumentOutOfRangeException();
                 }
-                returnValue += c;
-                counter--;
-            }
 
-            return returnValue;
+                string returnValue = "";
+                string sValue = value.ToString();
+                int counter = sValue.Length;
+            
+                foreach(char c in sValue)
+                {
+                    if (counter % 3 == 0)
+                    {
+                        if (returnValue.Length>0)
+                            returnValue += ",";
+                    }
+                    returnValue += c;
+                    counter--;
+                }
+
+                return returnValue;
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Out of range", e);
+            }
         }
     }
 }

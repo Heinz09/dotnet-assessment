@@ -16,13 +16,13 @@ namespace TGS.Challenge.Tests
     [Test()]
     public void NegativeNumber_Throws_ArgumentOutOfRangeException()
     {
-      Assert.Throws<ArgumentOutOfRangeException>(() => _formatNumber.Format(-1));
+      Assert.Throws<ArgumentOutOfRangeException>(() => _formatNumber.Format(-2147483647));
     }
 
     [Test()]
     public void BiggerThanMaxNumber_Throws_ArgumentOutOfRangeException()
     {
-      Assert.Throws<ArgumentOutOfRangeException>(() => _formatNumber.Format(1000000001));
+      Assert.Throws<ArgumentOutOfRangeException>(() => _formatNumber.Format(2147483647));
     }
 
     [Test()]
