@@ -10,6 +10,7 @@ namespace TGS.CLI
             Console.WriteLine("TGS CLI");
             Console.WriteLine("-*-*-*-*-");
             Console.WriteLine("\t1> VowelCount");
+            Console.WriteLine("\t2> Anagram");
             Console.Write("> ");
             var key = Console.ReadKey();
             char sKey = key.KeyChar;
@@ -25,6 +26,19 @@ namespace TGS.CLI
                         VowelCount vc = new VowelCount();
                         Console.WriteLine("Vowels Found: "+vc.Count(input));
 
+                        break;
+                    }
+                case ('2'):
+                    {
+                        Console.WriteLine("\r\nGive me your first word:");
+                        Console.Write("> ");
+                        string word1 = Console.ReadLine();
+                        Console.WriteLine("\r\nGive me your 2nd word:");
+                        Console.Write("> ");
+                        string word2 = Console.ReadLine();
+
+                        Anagram anagram = new Anagram();
+                        Console.WriteLine("These words are :"+anagram.AreAnagrams(word1,word2));
                         break;
                     }
                 case ('0'):

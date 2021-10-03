@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
+
 namespace TGS.Challenge
 {
   /*
@@ -22,9 +25,35 @@ namespace TGS.Challenge
      */
     public class Anagram
     {
-      public bool AreAnagrams(string word1, string word2)
-      {
-        return false;
-      }
+        public bool AreAnagrams(string word1, string word2)
+        {
+            if (word1.Length == 0)
+                throw new System.ArgumentException();
+            if (word2.Length == 0)
+                throw new System.ArgumentException();
+
+            string illegalChars = "_? .,!'\"";
+
+            word1 = word1.ToLower();
+            word2 = word2.ToLower();
+                        
+            foreach (var c in illegalChars)
+            {
+                word1 = word1.Replace(c.ToString(), "");
+                word2 = word2.Replace(c.ToString(), "");
+            }
+
+            if (word1.Length!=word2.Length) 
+                return false;
+
+            foreach(char c in word1)
+            {
+                if (!word2.Contains(c)) 
+                    return false;
+            }
+
+            return true;
+
+        }
     }
 }
