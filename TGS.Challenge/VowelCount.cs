@@ -17,22 +17,30 @@ namespace TGS.Challenge
     {
         public int Count(string value)
         {
-            List<char> vowels = new List<char>();
-                       
-            vowels.Add('A');
-            vowels.Add('E');
-            vowels.Add('I'); 
-            vowels.Add('O'); 
-            vowels.Add('U');
-
-            int vowelCount = 0;
-
-            foreach (char c in value.ToUpper())
+            if (value.Length==0) throw new ArgumentException();
+            try
             {
-                if (vowels.Contains(c)) vowelCount++;
-            }
+                List<char> vowels = new List<char>();
 
-            return vowelCount;
+                vowels.Add('A');
+                vowels.Add('E');
+                vowels.Add('I');
+                vowels.Add('O');
+                vowels.Add('U');
+
+                int vowelCount = 0;
+
+                foreach (char c in value.ToUpper())
+                {
+                    if (vowels.Contains(c)) vowelCount++;
+                }
+
+                return vowelCount;
+            }
+            catch
+            {
+                throw new ArgumentException();
+            }
         }
     }
 }
